@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/devclub-recruit/static/css/main.ff5114e0.css",
+    "main.js": "/devclub-recruit/static/js/main.c0ac16b9.js",
+    "static/js/787.f59d16be.chunk.js": "/devclub-recruit/static/js/787.f59d16be.chunk.js",
+    "static/media/bgimghome.png": "/devclub-recruit/static/media/bgimghome.e02168b1c5c15a79baa3.png",
+    "static/media/news1img.png": "/devclub-recruit/static/media/news1img.90755b258647ee52eb5c.png",
+    "static/media/activeprojects.png": "/devclub-recruit/static/media/activeprojects.a7c1a478595aa0aa2298.png",
+    "static/media/codelines.png": "/devclub-recruit/static/media/codelines.96ebbcb98c2e7ac39aa9.png",
+    "static/media/members.png": "/devclub-recruit/static/media/members.a2d46b2623d0cb0c0918.png",
+    "index.html": "/devclub-recruit/index.html",
+    "main.ff5114e0.css.map": "/devclub-recruit/static/css/main.ff5114e0.css.map",
+    "main.c0ac16b9.js.map": "/devclub-recruit/static/js/main.c0ac16b9.js.map",
+    "787.f59d16be.chunk.js.map": "/devclub-recruit/static/js/787.f59d16be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff5114e0.css",
+    "static/js/main.c0ac16b9.js"
+  ]
+}
