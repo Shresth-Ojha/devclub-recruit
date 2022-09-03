@@ -1,0 +1,308 @@
+* {
+    scroll-behavior: smooth;
+}
+
+#aboutus{
+    display: block;
+}
+/* 
+#bgimg{
+    margin: 60px;
+    height: 460px;
+    width: 900px;
+} */
+
+#about{
+    /* position: absolute; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px auto;
+    background-image: url(https://img.freepik.com/free-vector/white-digital-matrix-binary-code-numbers-background_1017-25332.jpg?w=1800&t=st=1662121212~exp=1662121812~hmac=8b928dc323744477cbfbd95ca7c93bed035211d43f7dd5c1c4063bf64caebf0c);
+    background-repeat: space;
+    background-position: -1200px;
+    /* height: 460px;
+    width: 900px; */
+}
+
+
+
+#aboutleft{
+    /* margin-top: 100px; */
+    width: 500px;
+    margin-left: -110px;
+    line-height: 120px;
+    font-size: 120px;
+    font-weight: 500;
+    font-family: 'Merienda', cursive;
+    color: rgb(9,18,129);
+}
+
+#aboutline{
+    margin: 20px 0;
+    border: #14cb2f solid 2px;
+    width: 85px;
+}
+
+#aboutright{
+    margin: 0;
+    margin-left: -80px;
+    text-align: center;
+    width: 450px;
+    font-size: 29px;
+    color: rgb(48, 48, 48);
+    font-family: 'Anek Telugu', sans-serif;
+    font-weight: 400;
+}
+
+#readmore{
+    position: absolute;
+    bottom: -15px;
+    border: none;
+    color: black;
+    background-color: #16dc34;
+    height: 40px;
+    width: 130px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+#readmore:hover{
+    background-color: #10c02a;
+}
+
+
+
+
+
+
+
+#mission{
+    /* position: absolute; */
+    /* top: 600px; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#leftmenu{
+    display: flex;
+    flex-direction: column;
+}
+
+.leftmenuitem1, .leftmenuitem2, .leftmenuitem3{
+    display: block;
+    margin: 20px;
+    /* width: 100px; */
+    border: #10c02a solid 2px;
+    padding: 10px;
+    font-family: 'Merienda', cursive;
+    font-size: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(9,18,129);
+}
+.leftmenuitem1.hey1, .leftmenuitem2.hey2 , .leftmenuitem3.hey3{
+    background-color: #14cb2f;
+    border-right: black inset 10px;
+}
+
+.card1 , .card2 , .card3{
+    /* position: absolute; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: #E6E9FE solid 40px;
+    border-bottom: #E6E9FE solid 20px;
+    border-top: #E6E9FE solid 30px;;
+    width: 600px;
+    display: none;
+    height: 250px;
+    box-shadow: 20px 20px 20px;
+}
+
+.card1.hey1 , .card2.hey2 , .card3.hey3{
+    display: flex;
+}
+
+.cardhead{
+    font-size: 40px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.cardcontent{
+    width: 490px;
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+    font-family: 'Anek Telugu', sans-serif;
+    font-weight: 400;
+}
+
+.missionline{
+    margin: 0px 0;
+    margin-left: -20px;
+    margin-top: 5px;
+    border: #14cb2f solid 2px;
+    width: 85px;
+}
+
+@media screen and (max-width:1200px){
+    #about{
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    #aboutleft{
+        margin-left: 0px
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    #aboutleft{
+        font-size: 70px;
+        color: #000274;
+        -webkit-text-stroke: rgb(0, 0, 0) 2px;
+    }
+    #aboutright{
+        font-size: 22px;
+    }
+    #leftmenu{
+        margin-left: 0px;
+    }
+    .leftmenuitem1, .leftmenuitem2, .leftmenuitem3{
+        font-size: 25px;
+    }
+    .card1 , .card2 , .card3{
+        width: 400px;
+        height: 250px;
+    }
+    .cardhead{
+        font-size: 27px;
+    }
+    .cardcontent{
+        font-size: 16px;
+        width: 300px;
+    }
+    #mission{
+        /* left: 100px; */
+        width: 700px;
+    }
+}
+
+@media screen and (max-width:900px){
+    #aboutleft{
+        font-size: 40px;
+        width: 270px;
+    }
+    #aboutright{
+        font: 18px;
+    }
+    #about{
+        background-image: none;
+    }
+    #aboutline{
+        margin: -20px 0 50px 0;
+    }
+    #mission{
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 720px){
+    #aboutright{
+        font-size: 14px;
+        width: 300px;
+    }
+    #aboutleft{
+        width: 290px;
+    }
+    #mission{
+        /* margin-left: 0px;
+        margin-right: 0px; */
+        width: 100%;
+    }
+    .cardhead{
+        font-size: 26px;
+    }
+    .cardcontent{
+        font-size: 15px;
+        width: 300px;
+    }
+    .card1 , .card2 , .card3{
+        width: 360px;
+        height: 240px;
+        border-width: 20px;
+    }
+    .leftmenuitem1, .leftmenuitem2, .leftmenuitem3{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 620px){
+    #about{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #aboutleft{
+        position: static;
+        margin: 0;
+        font-size: 45px;
+    }
+    #aboutright{
+        position: static;
+        margin: -30px 0 50px 0;
+        font-size: 17px;
+    }
+    #mission{
+        flex-direction: column;
+    }
+    #leftmenu{
+        flex-direction: row;
+    }
+    .leftmenuitem1, .leftmenuitem2, .leftmenuitem3{
+        margin: 8px;
+        padding: 10px;
+    }
+    #rightmenu{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .cardhead{
+        font-size: 25px;
+    }
+    .cardcontent{
+        text-align: center;
+        width: 250px;
+    }
+    .card1 , .card2 , .card3{
+        border: #E6E9FE solid 15px;
+        border-bottom: #E6E9FE solid 10px;
+        border-top: #E6E9FE solid 20px;;
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .cardhead{
+
+        font-size: 24px;
+    }
+    .cardcontent{
+        text-align: center;
+        width: 250px;
+    }
+    .card1 , .card2 , .card3{
+        border: #E6E9FE solid 15px;
+        border-bottom: #E6E9FE solid 10px;
+        border-top: #E6E9FE solid 20px;;
+        width: 280px;
+        height: 220px;
+    }
+
+}

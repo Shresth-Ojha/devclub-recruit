@@ -1,0 +1,278 @@
+* {
+    scroll-behavior: smooth;
+}
+
+#contactus{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contactcontent{
+    margin: 40px;
+    display: flex;
+}
+
+#contentleft{
+    margin: 10px 50px;
+}
+
+#contentright{
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Anek Telugu', sans-serif;
+    font-size: 20px;
+
+}
+
+
+#contactheadingup{
+    margin: 0px;
+    font-family: 'Merienda', cursive;
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(9,18,129);
+}
+
+#contactheadingdown{
+    margin: 0;
+    font-size: 25px;
+    color: rgb(81, 81, 81);
+    font-family: 'Anek Telugu', sans-serif;
+    font-weight: 400;
+}
+
+#leftp1{
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: rgb(81, 81, 81);
+    font-family: 'Anek Telugu', sans-serif;
+    font-weight: 400;
+}
+
+#leftp2{
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 23px;
+    color: rgb(33, 33, 33);
+    font-family: 'Anek Telugu', sans-serif;
+    font-weight: 700;
+}
+
+#leftp3{
+    margin: 0;
+    font-size: 17px;
+    color: rgb(69, 69, 69);
+    font-family: 'Anek Telugu', sans-serif;
+    font-weight: 400;
+}
+
+#leftp4{
+    font-family: 'Merienda', cursive;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(9,18,129);
+    margin: 40px 0;
+}
+
+#leftinputemail{
+    border: none;
+    background-color: #d1d7fe;
+    padding: 10px;
+    width: 200px;
+    color: black;
+}
+
+#leftbutton{
+    border: none;
+    background-color: rgb(9,18,129);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+
+
+.input{
+    border: none;
+    border: black inset 2px;
+    width: 110%;
+    padding: 5px 20px;
+    margin: 0px 0px;
+    height: 30px;
+    border: green solid 1px;
+    color: black;
+    font-weight: 700;
+    resize: none;
+}
+
+
+#formmsg{
+    margin: 23px 0;
+}
+
+#msginput{
+    position: static;
+    width: 110%;
+    height: 150px;
+    padding: 12px 20px;
+    /* box-sizing: border-box; */
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+#rightsubmit{
+    background-color: rgb(36, 199, 36);
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    width: 111%;
+    font-size: 22px;
+    padding: 15px;
+}
+
+
+#footer{
+    font-style: none;
+    background-color: rgb(9,18,129);
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(36, 199, 36);
+    padding: 20px 0;
+}
+
+.footerlink{
+    text-decoration: none;
+    color: white;
+}
+
+#backtotop{
+    text-decoration: none;
+    color: black;
+    /* text-transform: uppercase; */
+    text-align: center;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 1030px) {
+    #msginput{
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    #msginput{
+        width: 90%;
+    }
+    .input{
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+    #contactcontent{
+        margin: 0px;
+        display: flex;
+        /* width: 100vw; */
+    }
+    #contentleft{
+        margin: 30px 0px 0 10px;
+    }
+    
+    #contentright{
+        margin: 0 0px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Anek Telugu', sans-serif;
+        font-size: 20px;
+    }
+    #leftinputemail{
+        width: 150px;
+    }
+    #formname{
+        font-size: 15px;
+    }
+    #formemail{
+        font-size: 15px;
+    }
+    #formmsg{
+        font-size: 15px;
+    }
+    .input{
+        width: 80%;
+        height: 20px;
+        padding-left: 10px;
+    }
+    #msginput{
+        width: 80%;
+        padding-left: 10px;
+    }
+    #rightsubmit{
+        width: 80%;
+        font-size: 17px;
+        padding: 8px 0;
+        margin: -20px 0 10px 18px;
+    }
+    #leftp3{
+        width: 240px;
+    }
+    .footerlink{
+        font-size: 18px;
+    }
+    #leftbutton{
+        transform: scale(0.8,1);
+        margin-left: -10px;
+    }
+    #backtotop{
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #leftp4{
+        font-size: 18px;
+        width: 180px;
+        margin-right: 0;
+        margin-left: 20px 0;
+    }
+    #leftinputemail{
+        width: 140px;
+    }
+    #contentleft{
+        width: 200px;
+    }
+    #leftp3{
+        font-size: 16px;
+        width: 170px;
+    }
+    #leftp1{
+        font-size: 15px;
+    }
+    #leftp2{
+        font-size: 21px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .input{
+        padding-right: 4px;
+    }
+    #msginput{
+        padding-right: 4px;
+    }
+    #contactheadingup{
+        font-size: 50px;
+    }
+    #contactheadingdown{
+        font-size: 20px;
+    }
+}
+

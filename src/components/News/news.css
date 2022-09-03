@@ -1,0 +1,263 @@
+* {
+    scroll-behavior: smooth;
+}
+
+#news{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#newsheader{
+    margin: 0px;
+    font-family: 'Merienda', cursive;
+    font-size: 80px;
+    font-weight: 900;
+    color: rgb(9,18,129);
+}
+
+#newscards{
+    position: relative;
+    width: 1100px;
+    height: 500px;
+    background-color: #E6E9FE;
+    margin: 20px;
+}
+
+.newsimg{
+    height: 500px;
+    width: 600px;
+}
+
+.newscard1 , .newscard2 , .newscard3{
+    display: none;
+}
+
+.newscard1.hey1 , .newscard2.hey2 , .newscard3.hey3{
+    display: flex;
+}
+
+.newsright{
+    margin: 10px 30px;
+}
+
+.newsrightabove{
+    font-size: 60px;
+    margin: 40px 0px;
+}
+
+.newsrightbelow{
+    font-size: 25px;
+}
+
+.navbuttons{
+    position: absolute;
+    border: none;
+    /* border: green solid 2px; */
+    border-radius: 200px;
+    top: 220px;
+    font-size: 50px;
+    padding: 0 13px;
+    background-color: rgb(43, 182, 43);
+}
+.navbuttons:hover{
+    background-color: green;
+}
+#prev{
+    left: -20px;
+}
+#next{
+    right: -20px;
+}
+
+@media screen and (max-width: 1145px) {
+    .navbuttons{
+        border-radius: 3px;
+        font-size: 30;
+        width: 40px;
+        padding: 0;
+        height: 80px;
+    }
+    #prev{
+        left: 0px;
+    }
+    #next{
+        right: 0px;
+    }
+
+    .newsrightbelow{
+        font-size: 20px;
+        width: 400px;
+    }
+    #newscards{
+        scale: 0.9;
+    }
+}
+
+#newstracker{
+    display: flex;
+    margin: -10px 0 20px 0;
+}
+
+.tracker1 , .tracker2 , .tracker3{
+    /* display: inline; */
+    margin: 0px 5px;
+    border: grey solid 3px;
+    width: 85px;
+}
+
+.tracker1.hey1 , .tracker2.hey2 , .tracker3.hey3 {
+    border: rgb(0, 171, 0) solid 2px;
+    transform: scale(1,1.5);
+    background-color: rgb(0, 171, 0);
+}
+
+#donaterow{
+    background-color: blue;
+
+}
+
+#donatebar{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(9,18,129);
+}
+
+#donatebartext{
+    color: white;
+    font-family: 'Merienda', cursive;
+    font-size: 60px;
+    font-weight: 900;
+    width: 700px;
+    margin: 40px -20px;
+}
+
+#donatenow{
+    margin: 0;
+    border: none;
+    border-radius: 1px;
+    background-color: #1be739;
+    /* padding: 12px 15px; */
+    height: 40px;
+    width: 130px;
+    color: rgb(9,18,129);
+    font-family: 'Montserrat', sans-serif;
+    scale: 1.8;
+}
+
+
+#donatenow:hover{
+    background-color: #10c02a;
+}
+
+@media screen and (max-width: 1145px) {
+    #newsheader{
+        font-size: 50px;
+    }
+    .newsimg{
+        height: 400px;
+        width: 500px;
+    }
+    #newscards{
+        height: 400px;
+        width: 900px;
+    }
+    .newsrightabove{
+        margin: 10px;
+        font-size: 40px;
+    }
+    .newsrightbelow{
+        width: 300px;
+    }
+    .navbuttons{
+        top: 170px;
+    }
+    #donatebartext{
+        font-size: 35px;
+        width: 400px;
+    }
+    #donatenow{
+        font-size: 10px;
+        height: 40px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:860px){
+    #newsheader{
+        font-size: 50px;
+    }
+    .newsimg{
+        height: 300px;
+        width: 350px;
+    }
+    #newscards{
+        height: 300px;
+        width: 670px;
+    }
+    .navbuttons{
+        top: 110px;
+    }
+    .newsrightabove{
+        margin: 10px 0;
+        font-size: 30px;
+    }
+    .newsrightbelow{
+        font-size: 15px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:620px){
+    #newscards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        height: 100%;
+        background-color: #E6E9FE;
+        margin: 20px;
+    }
+    .newsimg{
+        height: 45vw;
+        width: 60vw;
+        margin-top: 10px;
+        position: static;
+    }
+    .newsright{
+        margin: 0;
+        text-align: center;
+    }
+    .newsrightbelow{
+        width: 70%;
+        margin: 10px auto;
+    }
+    .newscard1.hey1 , .newscard2.hey2 , .newscard3.hey3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbuttons{
+        top: 170px;
+    }
+    #donatebartext{
+        font-size: 27px;
+        width: 50%;
+    }
+    #donatenow{
+        scale: 1.2;
+    }
+    #newsheader{
+        margin: 0 0 -20px 0;
+    }
+}
+
+@media screen and (max-width:420px){
+    #newsheader{
+        font-size: 45px;
+    }
+}
